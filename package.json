@@ -1,0 +1,77 @@
+{
+  "name": "ippopay",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.20.7",
+    "axios": "^0.27.2",
+    "file-saver": "^2.0.5",
+    "google-libphonenumber": "^3.2.27",
+    "moment": "^2.29.3",
+    "muthu-plugins": "^1.0.2",
+    "path-browserify": "^0.0.1",
+    "react": "^17.0.2",
+    "react-cookies": "^0.1.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-hooks-router": "^0.3.2",
+    "react-icons": "^4.4.0",
+    "react-modal": "^3.15.1",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^5.3.0",
+    "react-s3-uploader": "^5.0.0",
+    "react-scripts": "5.0.0",
+    "react-select": "^5.6.0",
+    "react-share": "^4.4.0",
+    "react-toast-notifications": "2.4.4",
+    "react-toastify": "^9.0.1",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "use-deep-compare-effect": "^1.8.1",
+    "web-vitals": "^2.1.4",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-dev": "REACT_APP_ENV=staging react-scripts build GENERATE_SOURCEMAP=false",
+    "start-prod": "REACT_APP_ENV=production react-scripts start",
+    "build-prod": "REACT_APP_ENV=production react-scripts build GENERATE_SOURCEMAP=false",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}

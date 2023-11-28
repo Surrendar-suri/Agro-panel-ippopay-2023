@@ -1,0 +1,13 @@
+.card_top .card {
+  background: #C6E0FE;
+  border-radius: 5px;
+}
+.card_top .card-body{padding:7px;}
+.bs-vertical-wizard ul > li > .step_wrap::before,.bs-vertical-wizard ul > li.complete > .step_wrap::before,.bs-vertical-wizard ul > li.current > .step_wrap::before,.bs-vertical-wizard ul > li.current > .step_wrap::after {display:none!important;}
+.bs-vertical-wizard ul > li > .step_wrap{padding: 10px 10px 10px 10px;}
+.bs-vertical-wizard ul > li.current > .step_wrap{padding-left:0;}
+.payout_adding_section{background:#f9f9f9;padding:10px;border-radius:3px;float:left;width:calc(50% - 15px);margin:0 15px 15px 0;}
+.payout_adding_section .agro_view_desc{font-size: 14px;margin-bottom:10px;}
+.payout_adding_section .beneficiary_info_title{font-size: 12px;}
+.payout_adding_section_head {float: left;width: 100%;font-size:14px;font-weight: 600;color: #29394f;margin:0 0 10px;}
+.payout_info_label{padding:5px 15px;background: #fcf8e3;font-size:13px;font-weight: 400;color: #8a6d3b;margin:0px;float:left;}
